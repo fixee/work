@@ -170,6 +170,23 @@ public:
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-                        
+        int num = 0;
+        for( int i = 0; i < nums.size(); i++ )
+            num ^= nums[i];
+        return num;
+    }
+};
+
+//single number II
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+    }
+};
+
+//single number III
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
     }
 };
